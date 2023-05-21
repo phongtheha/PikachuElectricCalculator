@@ -4,7 +4,7 @@ This is my code for an assignment for CS 260 UI Design class at Berkeley
 
 <img width="300" alt="image" src="https://github.com/phongtheha/PikachuElectricCalculator/assets/34360607/34540f4f-a13a-4064-9a5f-d28e742582cb">
 
-To Run:
+### To Run:
 
 Check to see if you can run  ``$ node -v`` and ``$ npm -v`` (My versions are v16.15.0 for node and 8.10.0 for npm.)
 ### Install the Express module using npm. 
