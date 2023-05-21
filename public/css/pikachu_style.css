@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-image: url(https://images3.alphacoders.com/273/273289.jpg);
+  background-size: contain;
+  color : black
+
+}
+
+header img {
+  height: 100px;
+  margin-right: 20px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  ;
+}
+
+.left-column{
+  width: 50%;
+  padding: 100px;
+  text-align: middle;
+  background-color:white;
+}
+.right-column {
+  width: 50%;
+  padding: 30px;
+  text-align: middle;
+  background-color:white;
+}
+
+input, select{
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+button {
+  padding: 20px 40px;
+  font-size: 16px;
+  /* background-color: #FFC107; */
+  background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 100px;
+  color:black
+}
+

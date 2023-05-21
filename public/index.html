@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <style>
+table, th, td {
+  border:1.5px solid #FFC107;
+}
+</style>
+  <head>
+    <meta charset="UTF-8">
+    <title>Travel Time Calculator</title>
+    <link rel="stylesheet" type="text/css" href="/css/pikachu_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header>
+      
+      <h1><i class="fas fa-bolt"></i> Pikachu's Electric Calculator <i class="fas fa-bolt"></i></h1> 
+    </header>
+    <div class="main-container">
+      <div class="left-column">
+        <form>
+          
+          
+          <label for="distance">Enter Distance (miles) or Time (mins):</label>
+          <input type="text" id="distance" name="distance"> <br>
+ 
+          <label for="transportation">Select Transportation:</label>
+          <select id="transportation" name="transportation">
+            <option value="walking">Walking</option>
+        <option value="boosted_mini_s_board">Boosted Mini S Board</option>
+        <option value="evolved_bamboo">Evolve Bamboo GTR 2in1</option>
+        <option value="onewheel_xr">OneWheel XR</option>
+        <option value="mototec_skateboard">MotoTec Skateboard</option>
+        <option value="segway_ninebot_s">Segway Ninebot S</option>
+        <option value="segway_ninebot_s_plus">Segway Ninebot S plus</option>
+        <option value="razor_scooter">Razor Scooter</option>
+        <option value="geoblade_500">Geoblade 500</option>
+        <option value="hovertrax_hoverboard">Hovertrax Hoverboard</option>
+          </select>
+           <input type="checkbox" id="time-option" name="time-option" value=True>
+          <label for="time-option"> Time to Distance</label><br>
+          <br><br>
+          <button type="button" onclick="convert()"><b>CONVERT</b> <i class="fas fa-bolt"></i></button>
+        </form>
+      </div>
+      <div class="right-column" id="result"><img src="https://i.ibb.co/Y0rRDgP/eswotb.jpg" alt="welcome-pikachu" width="350" height="300"></div>
+    </div>
+    <script src="convert.js"></script>
+  </body>
+</html>
+<!-- a -->
